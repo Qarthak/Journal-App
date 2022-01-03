@@ -14,7 +14,7 @@ It stores information along with start and end times and the date. It can be edi
 
 ## Known Bugs:
 
-If one adds an entry and then decides to go back without saving it still saves. One can think of this as feature
+If one adds an entry and then decides to go back without saving it still saves. One can think of this as a autosave feature, although it was not intended by design
 
 # Process:
 
