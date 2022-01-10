@@ -23,7 +23,7 @@ If one adds an entry and then decides to go back without saving it still saves. 
 3. Added a delete option in the menu xml file and I added a alert dialog which shows the warning "Are you Sure?"
 4. I used Intent. I set the type of the intent as "text/*" which means it can handle texts and hyperlinks and JSON as opposed to text/plain which only handles texts
 5. I used an empty fragment and used the UI to add the fragment to the nav graph and wasn't able to add the action through the UI so I added that in code. The fragment had a lot of boilerplate which was giving error so I deleted all that and only inserted what was neccesary
-6. I tried the accessibility check but the library was not updated to work for M1. Similarly, the version of room library we were using was also not working with M!. I fixed it using a alpha release. There was a beta release too but it added a constrain android:exported=true which I wasn't able to satisfy for all the components
+6. I tried the accessibility check but the library was not updated to work for M1. Similarly, the version of room library we were using was also not working with M1. I fixed it using a alpha release. There was a beta release too but it added a constrain android:exported=true which I wasn't able to satisfy for all the components
 
 # Testing
 
